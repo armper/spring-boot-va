@@ -15,4 +15,3 @@ public class InMemoryEvidenceEventPublisher implements EvidenceEventPublisher {
         log.info("Event: EvidenceSubmitted id={} claimId={} docType={}", evidence.getId(), evidence.getClaimId(), evidence.getDocumentType());
     }
 }
-
