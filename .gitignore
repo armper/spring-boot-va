@@ -1,0 +1,66 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot / Logs
+logs/
+*.log
+spring.log
+
+# IDEs and editors
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.apt_generated_test/
+.sts4-cache/
+
+# Gradle (if added later)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*~
+*.swp
+*.swo
+
+# JVM crash dumps
+hs_err_pid*
+replay_pid*
+
+# Environment files
+.env
+.env.*
+!.env.example
+.envrc
+
+# Misc
+*.pid
